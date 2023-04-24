@@ -10,7 +10,7 @@ function TestimonialContent ( {review} ) {
             <div className='text-center'>
                 <div className="testimonial-content-container text-center">
 
-                    <img src={image} className="w-[140px] aspect-square rounded-full absolute top-[-3rem] left-[4rem]" draggable="false"></img>
+                    <img src={image} className="w-[140px] aspect-square rounded-full mx-auto md:absolute top-[-3rem] left-[4rem]" draggable="false"></img>
 
                     <p className="name text-3xl font-medium mb-[0.3rem] mt-[1rem]">
                             {name}

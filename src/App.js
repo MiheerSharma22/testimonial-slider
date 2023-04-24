@@ -7,7 +7,7 @@ function App() {
   const [reviews, setReview] = useState(data);
 
   return (
-    <div className="container w-[100vw] h-[100vh] bg-[rgb(229,231,235)] flex flex-col justify-center items-center">
+    <div className="container min-w-[100vw] min-h-[100vh] bg-[rgb(229,231,235)] flex flex-col justify-center items-center">
 
       <div>
         <h1 className="text-4xl font-semibold mb-2">Our Testimonials</h1>

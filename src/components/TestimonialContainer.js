@@ -28,7 +28,7 @@ function TestimonialContainer( {reviews} ) {
     }
 
         return(
-            <div className="testimonial-container w-[80vw] md:w-[700px] flex flex-col justify-center items-center md:h-[450px] bg-white mt-[2rem] rounded-lg shadow-md hover:shadow-xl transition-all duration-700 p-[20px] relative">
+            <div className="testimonial-container mb-[2rem] w-[80vw] md:w-[700px] flex flex-col justify-center items-center md:h-[450px] bg-white mt-[2rem] rounded-lg shadow-md hover:shadow-xl transition-all duration-700 p-[20px] relative">
 
                 <TestimonialContent  review={currReview}/>
 
