@@ -4,7 +4,7 @@ import data from "./data.js"
 import { useState } from "react";
 
 function App() {
-  const [reviews, setReview] = useState(data);
+  const [reviews] = useState(data);
 
   return (
     <div className="container min-w-[100vw] min-h-[100vh] bg-[rgb(229,231,235)] flex flex-col justify-center items-center">
